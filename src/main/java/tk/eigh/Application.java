@@ -10,7 +10,7 @@ public class Application {
     @RequestMapping("/")
     @ResponseBody
     String home() {
-      return "Hello World!";
+      return "Show me a message";
     }
 
 	public static void main(String[] args) {
